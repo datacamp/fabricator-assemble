@@ -1,5 +1,5 @@
 {
-  "name": "fabricator-assemble",
+  "name": "@datacamp/fabricator-assemble",
   "version": "1.2.0",
   "description": "The assembly engine behind Fabricator",
   "main": "index.js",
@@ -15,7 +15,10 @@
   ],
   "author": "Luke Askew",
   "license": "MIT",
-  "repository": "fbrctr/fabricator-assemble",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fbrctr/fabricator-assemble.git"
+  },
   "dependencies": {
     "chalk": "^1.1.3",
     "globby": "^5.0.0",
@@ -35,5 +38,12 @@
     "helper-markdown": "^0.1.2",
     "html-minifier": "^2.1.7",
     "mocha": "^2.5.3"
+  },
+  "bugs": {
+    "url": "https://github.com/fbrctr/fabricator-assemble/issues"
+  },
+  "homepage": "https://github.com/fbrctr/fabricator-assemble#readme",
+  "directories": {
+    "test": "test"
   }
 }
